@@ -47,6 +47,7 @@
 		912C9BFD24D302B2009947C3 /* Parse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A82B7EE1F254B820063D731 /* Parse.swift */; };
 		912C9C1624D302B2009947C3 /* (null) in Sources */ = {isa = PBXBuildFile; };
 		9194657824F16E330070296B /* ACLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9194657724F16E330070296B /* ACLTests.swift */; };
+		A406BA40252116C900BB66BE /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = A406BA3F252116C900BB66BE /* Cloud.swift */; };
 		F971F4F624DE381A006CB79B /* ParseEncoderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F971F4F524DE381A006CB79B /* ParseEncoderTests.swift */; };
 		F97B45CE24D9C6F200F4A88B /* ParseCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B45B424D9C6F200F4A88B /* ParseCoding.swift */; };
 		F97B45CF24D9C6F200F4A88B /* ParseCoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97B45B424D9C6F200F4A88B /* ParseCoding.swift */; };
@@ -246,6 +247,7 @@
 		912C9BDA24D3011F009947C3 /* ParseSwift_tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParseSwift_tvOS.h; sourceTree = "<group>"; };
 		912C9BDB24D3011F009947C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9194657724F16E330070296B /* ACLTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ACLTests.swift; sourceTree = "<group>"; };
+		A406BA3F252116C900BB66BE /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
 		F971F4F524DE381A006CB79B /* ParseEncoderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseEncoderTests.swift; sourceTree = "<group>"; };
 		F97B45B424D9C6F200F4A88B /* ParseCoding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseCoding.swift; sourceTree = "<group>"; };
 		F97B45B524D9C6F200F4A88B /* AnyDecodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyDecodable.swift; sourceTree = "<group>"; };
@@ -543,6 +545,7 @@
 				F97B462B24D9C74400F4A88B /* BatchUtils.swift */,
 				F97B462D24D9C74400F4A88B /* Responses.swift */,
 				F97B462C24D9C74400F4A88B /* URLSession+extensions.swift */,
+				A406BA3F252116C900BB66BE /* Cloud.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -877,6 +880,7 @@
 				F97B45DA24D9C6F200F4A88B /* Extensions.swift in Sources */,
 				F97B465F24D9C7B500F4A88B /* KeychainStore.swift in Sources */,
 				70110D52250680140091CC1D /* ParseConstants.swift in Sources */,
+				A406BA40252116C900BB66BE /* Cloud.swift in Sources */,
 				F97B465224D9C78C00F4A88B /* AddUniqueOperation.swift in Sources */,
 				F97B45D624D9C6F200F4A88B /* ParseEncoder.swift in Sources */,
 				F97B45F224D9C6F200F4A88B /* Pointer.swift in Sources */,
@@ -944,6 +948,7 @@
 				F97B45DB24D9C6F200F4A88B /* Extensions.swift in Sources */,
 				F97B466024D9C7B500F4A88B /* KeychainStore.swift in Sources */,
 				70110D53250680140091CC1D /* ParseConstants.swift in Sources */,
+				A406BA41252116C900BB66BE /* Cloud.swift in Sources */,
 				F97B465324D9C78C00F4A88B /* AddUniqueOperation.swift in Sources */,
 				F97B45D724D9C6F200F4A88B /* ParseEncoder.swift in Sources */,
 				F97B45F324D9C6F200F4A88B /* Pointer.swift in Sources */,
@@ -995,6 +1000,7 @@
 				F97B45FD24D9C6F200F4A88B /* ACL.swift in Sources */,
 				F97B465124D9C78C00F4A88B /* AddOperation.swift in Sources */,
 				F97B461124D9C6F200F4A88B /* ParseObject.swift in Sources */,
+				A406BA43252116C900BB66BE /* Cloud.swift in Sources */,
 				F97B460D24D9C6F200F4A88B /* Fetchable.swift in Sources */,
 				F97B45ED24D9C6F200F4A88B /* GeoPoint.swift in Sources */,
 				F97B45F524D9C6F200F4A88B /* Pointer.swift in Sources */,
@@ -1042,6 +1048,7 @@
 				F97B45FC24D9C6F200F4A88B /* ACL.swift in Sources */,
 				F97B465024D9C78B00F4A88B /* AddOperation.swift in Sources */,
 				F97B461024D9C6F200F4A88B /* ParseObject.swift in Sources */,
+				A406BA42252116C900BB66BE /* Cloud.swift in Sources */,
 				F97B460C24D9C6F200F4A88B /* Fetchable.swift in Sources */,
 				F97B45EC24D9C6F200F4A88B /* GeoPoint.swift in Sources */,
 				F97B45F424D9C6F200F4A88B /* Pointer.swift in Sources */,

@@ -21,6 +21,7 @@ public struct API {
         case login
         case signup
         case logout
+        case cloud(function: String)
         case any(String)
 
         var urlComponent: String {
@@ -37,6 +38,8 @@ public struct API {
                 return "/users"
             case .logout:
                 return "/users/logout"
+            case .cloud(let function):
+                return "/functions/\(function)"
             case .any(let path):
                 return path
             }
